@@ -1,4 +1,4 @@
-name: CI
+name: ci-sonarcloud
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - develop
 
 jobs:
-  build:
+  run-ci:
     runs-on: ubuntu-latest
 
     steps:
